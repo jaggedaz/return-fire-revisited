@@ -48,7 +48,7 @@ function love.load()
   
   love.window.setTitle('Return Fire Revisited')
   love.window.setMode(1280, 768, { fullscreen = true })
-  --love.window.setMode(1280, 768)
+  -- love.window.setMode(1280, 768)
   love.mouse.setVisible(false)
 
   gStateMachine = StateMachine {

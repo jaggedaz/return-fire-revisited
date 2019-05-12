@@ -16,7 +16,7 @@ function PlayState:enter(params)
     self.level = params.level
   else
     local levelDef = love.filesystem.load('levels/level1.lua')()
-    self.level = Level(levelDef, self.baseWithFlag)
+    self.level = Level(levelDef)
   end
 
   -- Start playing the music
